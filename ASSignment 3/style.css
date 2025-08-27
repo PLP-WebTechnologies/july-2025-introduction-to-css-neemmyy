@@ -1,0 +1,80 @@
+/* Reset some default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f4f7fa;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #4CAF50, #388E3C);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 4px solid #2e7d32;
+}
+
+header h1 {
+    margin-bottom: 8px;
+}
+
+/* Main content spacing */
+main {
+    padding: 20px;
+}
+
+/* Section styling (Box Model showcase) */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px dashed #bbb;
+    border-radius: 8px;
+    background: #fff;
+}
+
+/* List styles */
+ul {
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    background: #fafafa;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #e0f2f1;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2c2c2c;
+    color: #eee;
+    padding: 15px;
+    margin-top: 25px;
+    font-size: 14px;
+}
